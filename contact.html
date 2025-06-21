@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- This website was created by
+Author: Kaliyah Ringold
+File Name: template.html
+Date: 12/02/24
+-->
+
+<html lang="en">
+<head>
+	<title>Kay's Bakery: Contact</Title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header>
+		<img src="images/klogo.jpg" alt="Kay's Bakery Logo" class="logo">
+	</header>	
+	
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="shipping.html">Shipping</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>	
+		</nav>	
+<main>
+
+<div id="form">
+	
+	<h2>Ready to Order? Place Your Order Here!</h2>
+	
+	<form class="form-grid"> <!-- Start Form -->
+	<fieldset>
+		<legend>Customer Information</legend>
+		<label for="fName">First Name:</label>
+		<input type="text" name="fName" id="fName" required>
+		
+		<label for="lName">Last Name:</label>
+		<input type="text" name="lName" id="lName" required>
+
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" required>
+
+		<label for="phone">Phone:</label>
+		<input type="tel" id="phone" name="phone" required>
+		
+		<label for="address">Address:</label>
+		<input type="text" name="Address" required>
+	</fieldset>
+	
+	<fieldset>
+		<legend>Your Order</legend>
+		<label for="order">Place your order here.</label>
+		<select name="order" id="order">
+			<option value="Chocolate Chip Cookies">4 chocolate Chip Cookies - $4.00</option>
+			<option value="Gluten Free Chocolate Chip Cookies">4 Gluten Free Chocolate Chip Cookies - $4.00</option>
+			<option value="6 pack Donuts">6 pack of Donuts - $6.00</option>
+			<option value="12 pack Donuts">12 pack of Donuts - $12.00</option>
+			<option value="Blueberry Muffin">Blueberry Muffin - $1.99</option>
+			<option value="Chocolate Chip Muffin">Chocolate Chip Muffin - $1.99</option>
+			<option value="Whole Sweet Potato Pie">Whole Sweet Potato Pie - $4.99</option>
+		</select>
+	</fieldset>
+	<input type="submit" id="submit" value="Submit" class="btn">
+	</form>
+</main>
+
+<footer>
+<p>&copy; 2024 Kay's Bakery. All rights reserved.</p>
+</footer>
+</body>
+
+</html>
